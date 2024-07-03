@@ -3,7 +3,7 @@ from transformers import AutoModelForSeq2SeqLM, AutoTokenizer
 from huggingface_hub import hf_hub_download
 
 # Set your Hugging Face API key
-os.environ["HUGGINGFACEHUB_API_TOKEN"] = "YOUR_HUGGING_FACE_API_KEY"
+os.environ["HUGGINGFACEHUB_API_TOKEN"] = "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"
 
 # Load model and tokenizer from Hugging Face Hub
 model_name = "facebook/blenderbot-400M-distill"
